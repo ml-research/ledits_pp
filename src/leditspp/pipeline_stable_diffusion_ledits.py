@@ -11,7 +11,7 @@ from diffusers.models import AutoencoderKL, UNet2DConditionModel
 from diffusers.models.attention_processor import AttnProcessor, Attention
 from diffusers.pipelines.stable_diffusion.safety_checker import StableDiffusionSafetyChecker
 from diffusers.schedulers import DDIMScheduler
-from scheduling_dpmsolver_multistep_inject import DPMSolverMultistepSchedulerInject
+from .scheduling_dpmsolver_multistep_inject import DPMSolverMultistepSchedulerInject
 from diffusers.utils import logging, randn_tensor
 from diffusers.pipelines.pipeline_utils import DiffusionPipeline
 from diffusers.pipelines.semantic_stable_diffusion import SemanticStableDiffusionPipelineOutput
