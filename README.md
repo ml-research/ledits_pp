@@ -19,9 +19,23 @@ pip install diffusers
 
 Notably, the diffusers implementation does NOT guarantee perfect inversion. If that is a required property for your use case or you are performing research based on LEdits++, we recommend using the implementation in this repository instead.
 
+You can clone this repository and install it locally by running
+
+```cmd
+git clone https://github.com/ml-research/ledits_pp.git
+cd ./semantic-image-editing
+pip install .
+```
+or install it directly from git
+```cmd
+pip install git+https://github.com/ml-research/ledits_pp.git
+```
+
 ## Usage
 This repository provides 3 new diffusion pipelines supporting image editing based on the [diffusers](https://github.com/huggingface/diffusers) library.
 The ```StableDiffusionPipeline_LEDITS```, ```StableDiffusionPipelineXL_LEDITS``` and ```IFDiffusion_LEDITS``` extend the respective diffusers pipelines and can therefore be loaded from any corresponding pre-trained checkpoint like shown below.
+
+
 
 
 ```python
@@ -29,8 +43,8 @@ import PIL
 import requests
 import torch
 from io import BytesIO
-from scheduling_dpmsolver_multistep_inject import DPMSolverMultistepSchedulerInject
-from pipeline_stable_diffusion_ledits import  StableDiffusionPipeline_LEDITS
+from leditspp.scheduling_dpmsolver_multistep_inject import DPMSolverMultistepSchedulerInject
+from leditspp import  StableDiffusionPipeline_LEDITS
 
 model = 'runwayml/stable-diffusion-v1-5'
 #model = '/workspace/StableDiff/models/stable-diffusion-v1-5'
