@@ -4,7 +4,7 @@ Official Implementation of the [Paper](https://arxiv.org/abs/2311.16711) **LEDIT
 
 
 ## Interactive Demo
-An interactive demonstration is available in Colab and on Huggingface [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ml-research/semantic-image-editing/blob/main/examples/SemanticGuidance.ipynb) [![Huggingface Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/editing-images/ledtisplusplus)
+An interactive demonstration is available in Colab and on Huggingface [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ml-research/ledits_pp/blob/main/examples/LEdits.ipynb) [![Huggingface Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/editing-images/ledtisplusplus)
 
 [Project Page](https://leditsplusplus-project.static.hf.space/index.html)
 
