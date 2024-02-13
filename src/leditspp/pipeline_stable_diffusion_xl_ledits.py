@@ -46,7 +46,7 @@ from diffusers.utils import (
 from diffusers.pipelines.pipeline_utils import DiffusionPipeline
 from dataclasses import dataclass
 from diffusers.utils import BaseOutput
-from scheduling_dpmsolver_multistep_inject import DPMSolverMultistepSchedulerInject
+from .scheduling_dpmsolver_multistep_inject import DPMSolverMultistepSchedulerInject
 import math
 import torch.nn.functional as F
 
