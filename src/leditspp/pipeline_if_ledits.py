@@ -34,7 +34,7 @@ from diffusers.pipelines.deepfloyd_if import IFPipelineOutput
 from diffusers.pipelines.deepfloyd_if.safety_checker import IFSafetyChecker
 from diffusers.pipelines.deepfloyd_if.watermark import IFWatermarker
 
-from scheduling_dpmsolver_multistep_inject import DPMSolverMultistepSchedulerInject
+from .scheduling_dpmsolver_multistep_inject import DPMSolverMultistepSchedulerInject
 
 
 logger = logging.get_logger(__name__)  # pylint: disable=invalid-name
