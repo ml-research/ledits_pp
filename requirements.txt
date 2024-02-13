@@ -1,0 +1,7 @@
+diffusers==0.20.2
+pillow
+transformers
+accelerate
+jupyter
+sentencepiece
+ftfy
